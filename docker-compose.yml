@@ -1,0 +1,7 @@
+version: '2'
+services:
+  cargame:
+    build: .
+    env_file: variables.env
+    ports:
+      - "80:8888"

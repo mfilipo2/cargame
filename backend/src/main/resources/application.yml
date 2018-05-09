@@ -1,0 +1,22 @@
+server:
+  port: 8888
+
+spring:
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
+logging:
+  level:
+    pl.speedapp.cargame: debug
+
+# If true - CORS will be disabled for all methods/requests
+disableCors: ${DISABLE_CORS:FALSE}
+
+game:
+  # Game duration in seconds
+  duration: ${GAME_DURATION:30}
+  backInHistoryDelay: ${BACK_IN_HISTORY_DELAY:1000} #in MILLISECONDS
