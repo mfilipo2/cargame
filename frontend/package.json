@@ -13,6 +13,7 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.0.0-beta.2",
     "bootstrap-vue": "^2.0.0-rc.8",
+    "hoek": "^5.0.3",
     "moment": "^2.22.1",
     "node-sass": "^4.8.3",
     "popper.js": "^1.12.9",
